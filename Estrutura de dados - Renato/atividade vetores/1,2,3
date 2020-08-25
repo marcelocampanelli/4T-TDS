@@ -1,0 +1,6 @@
+3 - Em um vetor, essa metodologia bubble sort, verifica par por par se o numero a esquerda é menor que o numéro a direita ( vet[j] > vet[j+1]) se for menor, ele vai inverter os 2. até o momento em que o vetor todo esteja ordenado.
+
+2 - Ele vai procurar o menor valor a sua direita, e vai trocar de posição com ele.
+
+
+1 -em 2 vetor, ele tem uma vai ordando da segunda para a direita, pegando do vetor desordenado e inserindo no vetor ordenado.
