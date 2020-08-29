@@ -7,9 +7,9 @@ int main(){
   int aux;
   aux = 0;
   int casaInicial;
-      casaInicial = 0;
- 
-  
+  casaInicial = 0;
+
+
 
   for(int i=0; i < 5; i++){
     cin>>v[i];
