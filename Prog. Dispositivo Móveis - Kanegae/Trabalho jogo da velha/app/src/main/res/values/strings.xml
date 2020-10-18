@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JogoDaVelha</string>
+    <string name="play_alone">JOGAR SOZINHO</string>
+    <string name="play_with_friend">JOGAR COM AMIGO</string>
+    <string name="insert_your_name">INSIRA SEU NOME</string>
+    <string name="chose_your">ESCOLHA O SEU</string>
+    <string name="ready_to_play">PRONTO</string>
+</resources>

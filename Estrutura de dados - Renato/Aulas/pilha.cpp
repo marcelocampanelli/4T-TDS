@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int const maxtam = 5;
+int const maxtam = 100;
 int pilha[maxtam];
 int topo;
 
@@ -22,7 +22,7 @@ bool pilha_vazia(){
 
 //testa se a pilha ta cheia
 bool pilha_cheia(){
-  if ( topo==maxtam-1 ){
+  if ( topo == maxtam - 1 ){
     return true;
   } else 
       return false;
@@ -63,16 +63,24 @@ bool pilha_get(int &valor){
 
 int main(){
 
-  int valor;
+  int x;
+  int passou;
 
-  pilha_construtor();
+ cout<<"---------------";
+  pilha_push(42);
+  pilha_push(11);
+  pilha_push(19);
+  pilha_pop(x);
+  pilha_push(23);
+  pilha_pop(x);
+  pilha_push(26);
+  pilha_pop(x);
+  pilha_push(4);
+  pilha_push(27);
   pilha_push(6);
-  pilha_push(3);
-  pilha_push(9);
-  pilha_pop(valor);
-  pilha_pop(valor);
+  pilha_pop(x);
   
-  cout<<valor;
+
 
   return 0;
 }
